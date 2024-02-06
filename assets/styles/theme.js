@@ -1,6 +1,5 @@
 import { Poppins, Cairo } from "next/font/google";
 
-
 const fontPoppins900 = Poppins({ weight: "900", subsets: ["latin"] });
 const fontPoppins800 = Poppins({ weight: "800", subsets: ["latin"] });
 const fontPoppins700 = Poppins({ weight: "700", subsets: ["latin"] });
@@ -45,7 +44,7 @@ const fonts = {
     normalText: { fontSize: 16 },
     smallText: { fontSize: 14 },
     labelText: { fontSize: 12 },
-    extrasmall:{ fontSize: 10 },
+    extrasmall: { fontSize: 10 },
     verySmall: { fontSize: 8 },
   },
   cairo: {
@@ -67,9 +66,8 @@ const fonts = {
     normalText: { fontSize: 16 },
     smallText: { fontSize: 14 },
     labelText: { fontSize: 12 },
-    extrasmall:{ fontSize: 10 },
+    extrasmall: { fontSize: 10 },
     verySmall: { fontSize: 8 },
-
   },
 };
 
@@ -79,7 +77,7 @@ const colors = {
   black: "#040404",
   primary: "#FECB00",
   secondary: "#005293",
-  title:"#002a93",
+  title: "#002a93",
   navBarItems: "#404040",
   greyColor: "#B2B2B2",
   LightGreyColor: "#b2b2b263",
@@ -90,8 +88,7 @@ const colors = {
   error: "#FF3819",
   primaryFont: "#2A2A2A",
   secondaryFont: "#6C6C6C",
-  logoColor:"",
-  
+  logoColor: "",
 };
 
 const theme = {
