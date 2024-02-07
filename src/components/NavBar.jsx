@@ -14,7 +14,7 @@ const NavBar = () => {
             <li>
               <Link
                 href={"/about"}
-                className="text-xl text-White  font-bold "
+                className="text-sm text-White  font-bold "
               >
                 Home
               </Link>
@@ -22,7 +22,7 @@ const NavBar = () => {
             <li>
               <Link
                 href={"/about"}
-                className="text-xl text-White  font-bold "
+                className="text-sm text-White  font-bold "
               >
                 Projects
               </Link>
@@ -30,7 +30,7 @@ const NavBar = () => {
             <li>
               <Link
                 href={"/about"}
-                className="text-xl text-White  font-bold"
+                className="text-sm text-White  font-bold"
               >
                 About me
               </Link>
