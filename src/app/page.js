@@ -1,7 +1,9 @@
+import HeroSection from "@/components/HeroSection";
+
 export default function Home() {
   return (
-    <>
-      <h1>hello</h1>
-    </>
+    <main className="flex min-h-screen flex-col bg-black container mx-auto py-4 px-10">
+    <HeroSection />
+    </main>
   );
 }
