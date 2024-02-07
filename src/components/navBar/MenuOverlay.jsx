@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
 
-const NavLinks = ({ navLinks }) => {
+const MenuOverlay = ({ navLinks }) => {
   return (
-    <ul className="flex flex-row gap-5 items-center ">
+    <ul className="flex flex-col py-4 items-center">
       {navLinks.map((item, index) => {
         return (
           <li key={index}>
@@ -28,4 +28,4 @@ const NavLinks = ({ navLinks }) => {
   );
 };
 
-export default NavLinks;
+export default MenuOverlay;
