@@ -31,8 +31,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I’m Front End Developer Working With ReactJS,NextJs,and constantly
-            learning React Native....
+            I’m Front End Developer Working With ReactJS,NextJs,React Native and constantly
+            learning to expand my knowledge and skills
           </p>
           <div>
             <Link
