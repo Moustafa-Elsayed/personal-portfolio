@@ -1,9 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
+
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
@@ -56,10 +54,8 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="github.com">
-           <GitHubIcon className="text-5xl" />
           </Link>
           <Link href="linkedin.com">
-          <LinkedInIcon  className="text-5xl text-blue-600"/>
           </Link>
         </div>
       </div>
