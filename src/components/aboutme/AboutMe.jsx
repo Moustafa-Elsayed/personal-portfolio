@@ -9,22 +9,22 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>ReactJs</li>
+        <li>NextJs</li>
+        <li>React Native</li>
       </ul>
     ),
   },
   {
-    title: "Education",
-    id: "education",
+    title: "Tools",
+    id: "tools",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Tailwind</li>
+        <li>Bootstrap</li>
+        <li>Materuil ui</li>
+        <li>Sass</li>
       </ul>
     ),
   },
@@ -78,17 +78,17 @@ const AboutMe = () => {
               Skills
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
+              selectTab={() => handleTabChange("tools")}
+              active={tab === "tools"}
             >
-              Education
+              Tools
             </TabButton>
-            <TabButton
+            {/* <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
               Certifications
-            </TabButton>
+            </TabButton> */}
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
