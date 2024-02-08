@@ -34,7 +34,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
+    title: "Movies Application",
     description: "Project 4 description",
     image: "/images/projects/1.png",
     tag: ["All", "Mobile"],
