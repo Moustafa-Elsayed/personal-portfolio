@@ -60,7 +60,7 @@ const AboutMe = () => {
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-2xl lg:text-xl ">
+          <p className="text-base lg:text-xl ">
             I am a <span className="text-blue-500">Frontend web</span> and{" "}
             <span className="text-blue-500">Mobile App</span> developer with a
             passion for creating interactive and responsive web applications. I
