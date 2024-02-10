@@ -53,6 +53,7 @@ const NavBar = () => {
         </div>
         <div className="menu hidden md:block">
           <NavLinks navLinks={navLinks} />
+         
         </div>
       </div>
       {navBarOpen ? <MenuOverlay navLinks={navLinks} /> : null}
