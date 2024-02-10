@@ -46,6 +46,12 @@ const AchievementsSection = () => {
   return (
     <section>
       <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <div className="text-center pb-6 ">
+          <span className="bg-white text-black p-5 rounded-lg">Skills</span>
+        </div>
+        <div className="text-center pb-6">
+          The skills, tools and technologies I am really good at:
+        </div>
         <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between gap-2">
           {/* {achievementsList.map((achievement, index) => {
             return (
@@ -74,12 +80,11 @@ const AchievementsSection = () => {
               </div>
             );
           })} */}
-
           {skills.map((item) => {
             return (
               <div
                 key={item.id}
-                className="flex flex-col gap-2 justify-center items-center self-end"
+                className="flex flex-col gap-2 justify-center items-center md:self-end "
               >
                 <Image alt={item.title} src={item.src} width={70} height={50} />
                 <div className="text-gray-200">{item.title}</div>
