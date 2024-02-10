@@ -21,7 +21,7 @@ const navLinks = [
 const NavBar = () => {
   const [navBarOpen, setNavBarOpen] = useState(false);
   return (
-    <nav className="fixed top-0 right-0 left-0 z-10 bg-black bg-opacity-100 border-b border-blue-500">
+    <nav className="fixed top-0 right-0 left-0 z-40 bg-black bg-opacity-100 ">
       <div className="flex flex-wrap  items-center justify-between p-8 mx-auto px-6">
         <Link href={"/"} className="text-2xl md:text-5xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-100 to-blue-600">
           Portfolio
@@ -34,7 +34,7 @@ const NavBar = () => {
               }}
               className="text-slate-500 p-3 border border-white rounded-md flex items-center justify-center transition-all duration-300"
             >
-              <Bars3Icon className="h-6 w-6 text-white" />
+              <Bars3Icon className="h-9 w-9 text-white" />
             </button>
           ) : (
             <button
@@ -43,7 +43,7 @@ const NavBar = () => {
               }}
               className="text-slate-500 p-3 border border-white rounded-md flex items-center justify-center transition-all duration-300"
             >
-              <XMarkIcon className="h-6 w-6 text-white" />
+              <XMarkIcon className="h-9 w-9 text-white" />
             </button>
           )}
         </div>
