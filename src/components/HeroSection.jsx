@@ -17,7 +17,7 @@ import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';cons
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-8 place-self-center text-center sm:text-left justify-self-start pt-10 "
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-zinc-700">
@@ -44,7 +44,7 @@ import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';cons
             ReactJS,NextJs,React Native and constantly learning to expand my
             knowledge and skills
           </p>
-          <div className="flex flex-col gap-3 ">
+          <div className="flex flex-col gap-3 items-center md:items-start">
             <div className="flex flex-row gap-3  items-center">
               <LocationOnIcon />
               <div className="text-xl md:text-3xl">Egypt,Damnhour</div>
@@ -78,14 +78,14 @@ import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';cons
               </span>
             </Link> */}
           </div>
-        </motion.div>{" "}
-        <div className="col-span-4 place-self-center mt-4 lg:mt-0">
+        </motion.div>
+        <div className="col-span-4 place-self-center mt-4 lg:mt-0 pt-8 md:pt-0">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src={"https://svgshare.com/i/12pS.svg"}
+              src="/images/WhatsApp Image 2023-12-22 at 20.34.41_d58b157b.jpg"
               width={300}
               height={300}
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
               alt="pesonal image"
             />
           </div>

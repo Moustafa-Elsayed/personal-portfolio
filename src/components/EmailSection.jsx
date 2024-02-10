@@ -80,22 +80,28 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="github.com">
-            <GitHubIcon className="w-16 h-16 " />
+            <GitHubIcon
+              sx={{
+                fontSize: "55px",
+                color: "white",
+              }}
+            />
           </Link>
           <Link href="linkedin.com">
-            <LinkedInIcon className="w-16 h-16  text-blue-500" />
+            <LinkedInIcon
+              sx={{
+                fontSize: "55px",
+                color: "blue",
+              }}
+            />
           </Link>
         </div>
       </div>
       <div>
-        <Dialog
-          fullScreen={fullScreen}
-          open={open}
-          onClose={handleClose}
-        >
+        <Dialog fullScreen={fullScreen} open={open} onClose={handleClose}>
           <DialogContent className="p-24 relative">
             <div className="cursor-pointer absolute top-3 right-5 p-5 bg-gray-400 hover:bg-gray-500 rounded-md h-5 w-5 flex items-center justify-center z-10">
-              <CloseIcon onClick={handleClose}  />
+              <CloseIcon onClick={handleClose} />
             </div>
 
             <DialogContentText className="text-2xl bg-clip-text bg-gradient-to-r from-blue-200 to-blue-600 ">
