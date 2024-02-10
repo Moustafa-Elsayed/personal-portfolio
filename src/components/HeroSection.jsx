@@ -26,7 +26,7 @@ import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';cons
             <br></br>
             <TypeAnimation
               sequence={[
-                "Moustafa El-Sayed",
+                "Moustafa ElSayed",
                 1000,
                 "Web Developer",
                 1000,

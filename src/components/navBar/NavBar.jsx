@@ -29,7 +29,10 @@ const NavBar = () => {
           className="text-2xl md:text-5xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-100 to-blue-600"
         >
           <LogoDevIcon 
-          className="text-green-600 text-8xl"
+          sx={{
+            color:"red",
+            fontSize:"100px"
+          }}
           />
         </Link>
 

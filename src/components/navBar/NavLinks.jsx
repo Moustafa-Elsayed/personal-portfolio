@@ -9,7 +9,7 @@ const NavLinks = ({ navLinks }) => {
           <li key={index}>
             <Link
               href={item.path}
-              className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-blue-400"
+              className="block py-2 pl-3 pr-4 text-white sm:text-xl rounded md:p-0 hover:text-blue-400 font-semibold"
             >
               {item.title}
             </Link>
@@ -21,7 +21,7 @@ const NavLinks = ({ navLinks }) => {
           href="/"
           className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gray-600 text-white ml-3 "
         >
-          <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 ">
+          <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 font-semibold">
             Download CV
           </span>
         </Link>

@@ -47,9 +47,9 @@ const AchievementsSection = () => {
     <section>
       <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className="text-center pb-6 ">
-          <span className="bg-white text-black p-5 rounded-lg">Skills</span>
+          <span className=" text-white p-3 rounded-lg border border-gray-500 font-bold">Skills</span>
         </div>
-        <div className="text-center pb-6">
+        <div className="text-center pb-6 text-[#ADB7BE]">
           The skills, tools and technologies I am really good at:
         </div>
         <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between gap-2">
