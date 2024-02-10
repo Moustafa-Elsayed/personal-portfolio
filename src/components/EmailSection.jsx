@@ -92,7 +92,6 @@ const EmailSection = () => {
           fullScreen={fullScreen}
           open={open}
           onClose={handleClose}
-          aria-labelledby="responsive-dialog-title"
         >
           <DialogContent className="p-24 relative">
             <div className="cursor-pointer absolute top-3 right-5 p-5 bg-gray-400 hover:bg-gray-500 rounded-md h-5 w-5 flex items-center justify-center z-10">
