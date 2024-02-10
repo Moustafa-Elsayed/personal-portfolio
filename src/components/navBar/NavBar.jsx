@@ -4,6 +4,7 @@ import Link from "next/link";
 import NavLinks from "./NavLinks";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import LogoDevIcon from '@mui/icons-material/LogoDev';
 const navLinks = [
   {
     title: "Home",
@@ -27,7 +28,7 @@ const NavBar = () => {
           href={"/"}
           className="text-2xl md:text-5xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-100 to-blue-600"
         >
-          Portfolio
+          <LogoDevIcon  className="text-slate-400 md:w-20 md:h-20  w-14 h-14"/>
         </Link>
 
         <div className="mobile-menu block md:hidden relative">

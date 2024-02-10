@@ -9,7 +9,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import WorkIcon from "@mui/icons-material/Work";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-const HeroSection = () => {
+import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';const HeroSection = () => {
   return (
     <section className="sm:pt-32 pb-24">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -50,18 +50,17 @@ const HeroSection = () => {
               <div className="text-xl md:text-3xl">Egypt,Damnhour</div>
             </div>
             <div className="flex flex-row gap-3">
-              <WorkIcon />
+              <RadioButtonCheckedIcon className="text-green-600" />
               <div className="text-xl md:text-3xl">
-                {" "}
                 Available for new projects
               </div>
             </div>
             <div className="socials flex flex-row gap-2">
               <Link href="github.com">
-                <GitHubIcon className="text-8xl " />
+                <GitHubIcon className="w-16 h-16 " />
               </Link>
               <Link href="linkedin.com">
-                <LinkedInIcon className="text-8xl text-blue-500" />
+                <LinkedInIcon className=" text-blue-500 w-16 h-16  " />
               </Link>
             </div>
             {/* <Link

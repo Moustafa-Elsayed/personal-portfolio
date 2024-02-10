@@ -80,10 +80,10 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="github.com">
-            <GitHubIcon className="text-6xl " />
+            <GitHubIcon className="w-16 h-16 " />
           </Link>
           <Link href="linkedin.com">
-            <LinkedInIcon className="text-6xl text-blue-500" />
+            <LinkedInIcon className="w-16 h-16  text-blue-500" />
           </Link>
         </div>
       </div>
