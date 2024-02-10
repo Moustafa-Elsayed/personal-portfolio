@@ -1,29 +1,24 @@
+"use client";
 
-"use client"
+import { ThemeProvider } from "next-themes";
+import { useState, useEffect } from "react";
 
-import {ThemeProvider} from 'next-themes';
-import { useState, useEffect } from 'react'
+const Provider = ({ children }) => {
+  const [mounted, setMounted] = useState(false);
 
-
-
-const Provider = ({children}) => {
-
-const [mounted,setMounted] = useState(false);
-
-useEffect (() => {
+  useEffect(() => {
     setMounted(true);
-},[]);
+  }, []);
 
-if(!mounted){
+  if (!mounted) {
     return <>{children}</>;
-}
-
+  }
 
   return (
-    <ThemeProvider enableSystem={true} attribute='class'>
+    <ThemeProvider enableSystem={true} attribute="class">
       {children}
     </ThemeProvider>
-  )
-}
+  );
+};
 
 export default Provider;
