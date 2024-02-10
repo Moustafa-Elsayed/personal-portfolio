@@ -52,7 +52,7 @@ const HeroSection = () => {
             </div>
             <div className="flex flex-row gap-3  items-center">
               <RadioButtonCheckedIcon className="text-green-600" />
-              <div className="text-xl md:text-3xl">
+              <div className="text-xl md:text-3xl text-white">
                 Available for new projects
               </div>
             </div>
