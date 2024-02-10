@@ -20,7 +20,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-zinc-700">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
@@ -51,14 +51,17 @@ const HeroSection = () => {
             </div>
             <div className="flex flex-row gap-3">
               <WorkIcon />
-              <div className="text-xl md:text-3xl"> Available for new projects</div>
+              <div className="text-xl md:text-3xl">
+                {" "}
+                Available for new projects
+              </div>
             </div>
             <div className="socials flex flex-row gap-2">
               <Link href="github.com">
-                <GitHubIcon className="text-6xl " />
+                <GitHubIcon className="text-8xl " />
               </Link>
               <Link href="linkedin.com">
-                <LinkedInIcon className="text-6xl text-blue-500" />
+                <LinkedInIcon className="text-8xl text-blue-500" />
               </Link>
             </div>
             {/* <Link
