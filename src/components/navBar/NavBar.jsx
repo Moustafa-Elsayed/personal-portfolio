@@ -28,10 +28,9 @@ const NavBar = () => {
           href={"/"}
           className="text-2xl md:text-5xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-100 to-blue-600"
         >
-          <LogoDevIcon  sx={{
-            color:"gray",
-            fontSize:"100px"
-          }}/>
+          <LogoDevIcon 
+          className="text-green-600 text-8xl"
+          />
         </Link>
 
         <div className="mobile-menu block md:hidden relative">

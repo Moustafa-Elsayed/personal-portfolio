@@ -45,11 +45,11 @@ import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';cons
             knowledge and skills
           </p>
           <div className="flex flex-col gap-3 ">
-            <div className="flex flex-row gap-3">
+            <div className="flex flex-row gap-3  items-center">
               <LocationOnIcon />
               <div className="text-xl md:text-3xl">Egypt,Damnhour</div>
             </div>
-            <div className="flex flex-row gap-3">
+            <div className="flex flex-row gap-3  items-center">
               <RadioButtonCheckedIcon className="text-green-600" />
               <div className="text-xl md:text-3xl">
                 Available for new projects
