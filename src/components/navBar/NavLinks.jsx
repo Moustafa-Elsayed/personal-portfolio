@@ -16,10 +16,10 @@ const NavLinks = ({ navLinks }) => {
           </li>
         );
       })}
-      <li>
+      <li className="border-l border-gray-500">
         <Link
           href="/"
-          className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gray-600 text-white "
+          className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gray-600 text-white ml-3 "
         >
           <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 ">
             Download CV

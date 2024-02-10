@@ -6,6 +6,15 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 4,
+    title: "Movies Application",
+    description: "movies streaming App by React Native cli and TMDB APi ",
+    image: "/images/4.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/Moustafa-Elsayed/MoviesTime",
+    previewUrl: "https://github.com/Moustafa-Elsayed/MoviesTime",
+  },
+  {
     id: 1,
     title: "Onix Website",
     description:
@@ -35,15 +44,7 @@ const projectsData = [
     gitUrl: "https://github.com/Moustafa-Elsayed/NFT-marketPlace",
     previewUrl: "https://github.com/Moustafa-Elsayed/NFT-marketPlace",
   },
-  {
-    id: 4,
-    title: "Movies Application",
-    description: "movies streaming App by React Native cli and TMDB APi ",
-    image: "/images/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/Moustafa-Elsayed/MoviesTime",
-    previewUrl: "https://github.com/Moustafa-Elsayed/MoviesTime",
-  },
+
   {
     id: 5,
     title: "MarketEase Website",

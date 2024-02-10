@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 const AnimatedNumbers = dynamic(
   () => {
@@ -9,33 +10,44 @@ const AnimatedNumbers = dynamic(
   { ssr: false }
 );
 
-const achievementsList = [
+const skills = [
   {
-    metric: "Projects",
-    value: "100",
-    postfix: "+",
+    src: "https://svgshare.com/i/12vy.svg",
+    title: "javascript",
   },
   {
-    prefix: "~",
-    metric: "Users",
-    value: "100,000",
+    src: "https://svgshare.com/i/12un.svg",
   },
   {
-    metric: "Awards",
-    value: "7",
+    src: "https://svgshare.com/i/12vW.svg",
+    title: "Next Js",
   },
   {
-    metric: "Years",
-    value: "2",
+    src: "https://svgshare.com/i/12sz.svg",
+    title: "Typescript",
+  },
+
+  {
+    src: "https://svgshare.com/i/12vz.svg",
+    title: "Sass",
+  },
+  {
+    src: "https://svgshare.com/i/12ve.svg",
+    title: "Tailwind",
+  },
+
+  {
+    src: "https://svgshare.com/i/12vp.svg",
+    title: "Git ",
   },
 ];
 
 const AchievementsSection = () => {
   return (
-    <section >
+    <section>
       <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between">
-          {achievementsList.map((achievement, index) => {
+        <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between gap-2">
+          {/* {achievementsList.map((achievement, index) => {
             return (
               <div
                 key={index}
@@ -59,6 +71,18 @@ const AchievementsSection = () => {
                   {achievement.postfix}
                 </h2>
                 <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
+              </div>
+            );
+          })} */}
+
+          {skills.map((item) => {
+            return (
+              <div
+                key={item.id}
+                className="flex flex-col gap-2 justify-center items-center self-end"
+              >
+                <Image alt={item.title} src={item.src} width={70} height={50} />
+                <div className="text-gray-200">{item.title}</div>
               </div>
             );
           })}
