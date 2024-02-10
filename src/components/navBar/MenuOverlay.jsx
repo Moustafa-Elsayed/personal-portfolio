@@ -16,14 +16,6 @@ const MenuOverlay = ({ navLinks }) => {
           </li>
         );
       })}
-      <li>
-        <Link
-          href="/contact"
-          className="px-6 inline-block py-3 w-full sm:w-fit rounded-md mr-4  bg-white hover:bg-slate-200 text-black font-bold"
-        >
-          Contact Me
-        </Link>
-      </li>
     </ul>
   );
 };
