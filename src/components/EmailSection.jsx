@@ -1,8 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
 import styled from "@emotion/styled";
 //
 import Button from "@mui/material/Button";
@@ -78,24 +77,7 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
-            <GitHubIcon
-              sx={{
-                fontSize: "45px",
-                color: "white",
-              }}
-            />
-          </Link>
-          <Link href="linkedin.com">
-            <LinkedInIcon
-              sx={{
-                fontSize: "45px",
-                color: "blue",
-              }}
-            />
-          </Link>
-        </div>
+        
       </div>
       <div>
         <Dialog fullScreen={fullScreen} open={open} onClose={handleClose}>

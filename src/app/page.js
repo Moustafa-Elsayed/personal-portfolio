@@ -1,5 +1,6 @@
 import AchievementsSection from "@/components/AchievementsSection";
 import EmailSection from "@/components/EmailSection";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import AboutMe from "@/components/aboutme/AboutMe";
 import NavBar from "@/components/navBar/NavBar";
@@ -14,8 +15,9 @@ export default function Home() {
         <AchievementsSection />
         <AboutMe />
         <ProjectSection />
-        <EmailSection/>
+        <EmailSection />
       </div>
+      <Footer />
     </main>
   );
 }
