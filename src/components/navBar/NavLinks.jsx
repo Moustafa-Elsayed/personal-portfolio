@@ -1,15 +1,17 @@
 import Link from "next/link";
 import React from "react";
+import ThemeToggle from "../ThemeToggle";
 
 const NavLinks = ({ navLinks }) => {
   return (
     <ul className="flex flex-row gap-5 items-center ">
+    <li><ThemeToggle /></li>
       {navLinks.map((item, index) => {
         return (
           <li key={index}>
             <Link
               href={item.path}
-              className="block py-2 pl-3 pr-4 text-white sm:text-xl rounded md:p-0 hover:text-blue-400 font-semibold"
+              className="block py-2 pl-3 pr-4 dark:text-white text-black   sm:text-xl rounded md:p-0 hover:text-blue-400 font-semibold"
             >
               {item.title}
             </Link>

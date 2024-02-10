@@ -1,9 +1,8 @@
 "use client";
 import React from "react";
 import { useTheme } from "next-themes";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
-
+import NightlightRoundIcon from '@mui/icons-material/NightlightRound';
+import LightModeIcon from '@mui/icons-material/LightMode';
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();
   return (
@@ -11,12 +10,12 @@ const ThemeToggle = () => {
       onClick={() => (theme == "dark" ? setTheme("light") : setTheme("dark"))}
     >
       {theme === "light" ? (
-        <InstagramIcon sx={{ color: "red" }} />
+        <LightModeIcon sx={{ color: "black" }} />
       ) : (
-        <LinkedInIcon sx={{ color: "red" }} />
+        <NightlightRoundIcon sx={{ color: "white" }} />
       )}
     </button>
   );
 };
-
+           
 export default ThemeToggle;
