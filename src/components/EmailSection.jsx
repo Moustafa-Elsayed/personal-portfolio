@@ -67,7 +67,7 @@ const EmailSection = () => {
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-400 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 md:top-2/4 -left-2 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
@@ -80,13 +80,13 @@ const EmailSection = () => {
         
       </div>
       <div>
-        <Dialog fullScreen={fullScreen} open={open} onClose={handleClose}>
-          <DialogContent className="p-24 relative">
-            <div className="cursor-pointer absolute top-3 right-5 p-5 bg-gray-400 hover:bg-gray-500 rounded-md h-5 w-5 flex items-center justify-center z-10">
+        <Dialog open={open} onClose={handleClose} >
+          <DialogContent className= "p-10 md:p-24 relative">
+            <div className="cursor-pointer absolute top-3 right-5 p-1 md:p-5 bg-gray-400 hover:bg-gray-500 rounded-md h-5 w-5 flex items-center justify-center z-10">
               <CloseIcon onClick={handleClose} />
             </div>
 
-            <DialogContentText className="text-2xl bg-clip-text bg-gradient-to-r from-blue-200 to-blue-600 ">
+            <DialogContentText className="text-base md:text-2xl bg-clip-text bg-gradient-to-r from-blue-200 to-blue-600 ">
               Email sent successfully!
             </DialogContentText>
           </DialogContent>

@@ -44,7 +44,8 @@ const skills = [
 
 const AchievementsSection = () => {
   return (
-    <section>
+    <section >
+
       <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className="text-center pb-6 ">
           <span className=" text-white p-3 rounded-lg border border-gray-500 font-bold">Skills</span>

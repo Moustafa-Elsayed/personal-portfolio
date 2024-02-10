@@ -26,12 +26,14 @@ const NavBar = () => {
       <div className="flex flex-wrap  items-center justify-between p-5 mx-auto px-6">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-100 to-blue-600"
+          className="bg-white rounded-full h-16 w-16 flex items-center justify-center  "
         >
-          <LogoDevIcon sx={{
-            fontSize:"55px",
-            color:"white"
-          }} />
+          <LogoDevIcon
+            sx={{
+              fontSize: "55px",
+              color: "black",
+            }}
+          />
         </Link>
 
         <div className="mobile-menu block md:hidden relative">
