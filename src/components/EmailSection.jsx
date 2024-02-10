@@ -82,7 +82,7 @@ const EmailSection = () => {
           <Link href="github.com">
             <GitHubIcon
               sx={{
-                fontSize: "55px",
+                fontSize: "45px",
                 color: "white",
               }}
             />
@@ -90,7 +90,7 @@ const EmailSection = () => {
           <Link href="linkedin.com">
             <LinkedInIcon
               sx={{
-                fontSize: "55px",
+                fontSize: "45px",
                 color: "blue",
               }}
             />

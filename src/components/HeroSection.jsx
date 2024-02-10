@@ -57,10 +57,16 @@ import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';cons
             </div>
             <div className="socials flex flex-row gap-2">
               <Link href="github.com">
-                <GitHubIcon className="w-16 h-16 " />
+                <GitHubIcon   sx={{
+                fontSize: "45px",
+                color: "white",
+              }} />
               </Link>
               <Link href="linkedin.com">
-                <LinkedInIcon className=" text-blue-500 w-16 h-16  " />
+                <LinkedInIcon   sx={{
+                fontSize: "45px",
+                color: "blue",
+              }} />
               </Link>
             </div>
             {/* <Link
