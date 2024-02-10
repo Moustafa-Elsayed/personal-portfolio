@@ -5,6 +5,11 @@ import NavLinks from "./NavLinks";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 import LogoDevIcon from "@mui/icons-material/LogoDev";
+import ThemeToggle from "../ThemeToggle";
+3;
+import DataObjectIcon from "@mui/icons-material/DataObject";
+import Image from "next/image";
+
 const navLinks = [
   {
     title: "Home",
@@ -26,35 +31,49 @@ const NavBar = () => {
       <div className="flex flex-wrap  items-center justify-between p-5 mx-auto px-6">
         <Link
           href={"/"}
-          className="bg-slate-500 dark:bg-white rounded-full h-16 w-16 flex items-center justify-center  "
+          // className="bg-slate-500 dark:bg-white rounded-full h-16 w-16 flex items-center justify-center  "
         >
-          <LogoDevIcon
+          {/* <DataObjectIcon
             sx={{
               fontSize: "55px",
-              color:"black"
+              color: "black",
             }}
+          /> */}
+          <Image
+            // src={"https://svgshare.com/i/12wC.svg"}
+            src={"https://svgshare.com/i/12ua.svg"}
+            alt="logo"
+            className="md:w-20 w-9 text-black drak:text-white"
+            width={50}
+            height={20}
           />
         </Link>
 
         <div className="mobile-menu block md:hidden relative">
           {!navBarOpen ? (
-            <button
-              onClick={() => {
-                setNavBarOpen(true);
-              }}
-              className="text-slate-500 p-3 border border-white rounded-md flex items-center justify-center transition-all duration-300"
-            >
-              <Bars3Icon className="h-6 w-6 text-white" />
-            </button>
+            <div className="flex flex-row justify-center items-center gap-3">
+              <ThemeToggle />
+              <button
+                onClick={() => {
+                  setNavBarOpen(true);
+                }}
+                className="text-slate-500 p-3 border dark:border-white border-black  rounded-md flex items-center justify-center transition-all duration-300"
+              >
+                <Bars3Icon className="h-6 w-6 text-black dark:text-white" />
+              </button>
+            </div>
           ) : (
-            <button
-              onClick={() => {
-                setNavBarOpen(false);
-              }}
-              className="text-slate-500 p-3 border border-white rounded-md flex items-center justify-center transition-all duration-300"
-            >
-              <XMarkIcon className="h-6 w-6 text-white" />
-            </button>
+            <div className="flex flex-row justify-center items-center gap-3">
+              <ThemeToggle />
+              <button
+                onClick={() => {
+                  setNavBarOpen(false);
+                }}
+                className="text-slate-500 p-3 border dark:border-white border-black rounded-md flex items-center justify-center transition-all duration-300"
+              >
+                <XMarkIcon className="h-6 w-6 text-black dark:text-white" />
+              </button>
+            </div>
           )}
         </div>
         <div className="menu hidden md:block">

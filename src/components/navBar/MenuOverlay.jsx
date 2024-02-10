@@ -1,9 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import ThemeToggle from "../ThemeToggle";
 
 const MenuOverlay = ({ navLinks, setNavBarOpen,navBarOpen }) => {
   return (
     <ul className={`flex flex-col py-4 items-center transition-opacity duration-300 ${navBarOpen ? 'opacity-100' : 'opacity-0 hidden'}`}>
+    
     {navLinks.map((item, index) => (
       <li
         key={index}

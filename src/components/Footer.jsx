@@ -9,7 +9,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
 const Footer = () => {
   return (
-    <section className="bg-black border-t border-white">
+    <section className="dark:bg-black bg-white border-t border-white">
       <div className="flex flex-col justify-center items-center gap-7 p-10 ">
         <div className="flex flex-row gap-3 justify-center items-center">
           <EmailIcon className="text-white"/>
