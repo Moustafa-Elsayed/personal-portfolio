@@ -47,7 +47,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col gap-3 items-center md:items-start">
             <div className="flex flex-row gap-3  items-center">
-              <LocationOnIcon />
+              <LocationOnIcon className="text-white"/>
               <div className="text-xl md:text-3xl text-white">Damnhour , Egypt</div>
             </div>
             <div className="flex flex-row gap-3  items-center">

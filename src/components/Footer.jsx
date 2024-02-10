@@ -12,11 +12,11 @@ const Footer = () => {
     <section className="bg-black border-t border-white">
       <div className="flex flex-col justify-center items-center gap-7 p-10 ">
         <div className="flex flex-row gap-3 justify-center items-center">
-          <EmailIcon />
-          <span className="text-xl md:text-2xl">moelsayed949@gmail.com</span>
+          <EmailIcon className="text-white"/>
+          <span className="text-xl md:text-2xl text-white">moelsayed949@gmail.com</span>
         </div>
-        <div className="flex flex-row gap-3 justify-center items-center">
-          <LocalPhoneIcon />{" "}
+        <div className="flex flex-row gap-3 justify-center items-center text-white">
+          <LocalPhoneIcon className="text-white"/>{" "}
           <span className="text-xl md:text-2xl">+0201002602130</span>
         </div>
         <h1 className="text-center text-xl md:text-2xl text-[#ADB7BE]">
@@ -59,7 +59,7 @@ const Footer = () => {
             <XIcon
               sx={{
                 fontSize: "45px",
-                color: "black",
+                color: "white",
               }}
             />
           </Link>
