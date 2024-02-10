@@ -5,6 +5,7 @@ import NavLinks from "./NavLinks";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 import LogoDevIcon from "@mui/icons-material/LogoDev";
+import ThemeToggle from "../ThemeToggle";
 const navLinks = [
   {
     title: "Home",
@@ -22,7 +23,7 @@ const navLinks = [
 const NavBar = () => {
   const [navBarOpen, setNavBarOpen] = useState(false);
   return (
-    <nav className="fixed top-0 right-0 left-0 z-40 bg-black bg-opacity-100 ">
+    <nav className="fixed top-0 right-0 left-0 z-40 bg-white dark:bg-black  bg-opacity-100 ">
       <div className="flex flex-wrap  items-center justify-between p-5 mx-auto px-6">
         <Link
           href={"/"}
@@ -59,10 +60,15 @@ const NavBar = () => {
         </div>
         <div className="menu hidden md:block">
           <NavLinks navLinks={navLinks} />
+          <ThemeToggle />
         </div>
       </div>
       {navBarOpen ? (
-        <MenuOverlay navLinks={navLinks} setNavBarOpen={setNavBarOpen} navBarOpen={navBarOpen} />
+        <MenuOverlay
+          navLinks={navLinks}
+          setNavBarOpen={setNavBarOpen}
+          navBarOpen={navBarOpen}
+        />
       ) : null}
     </nav>
   );
