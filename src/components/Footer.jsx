@@ -9,25 +9,29 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
 const Footer = () => {
   return (
-    <section className="dark:bg-black bg-white border-t border-white">
+    <section className="dark:bg-black bg-white border-t dark:border-white border-black">
       <div className="flex flex-col justify-center items-center gap-7 p-10 ">
         <div className="flex flex-row gap-3 justify-center items-center">
-          <EmailIcon className="text-white"/>
-          <span className="text-xl md:text-2xl text-white">moelsayed949@gmail.com</span>
+          <EmailIcon className="text-black dark:text-white" />
+          <span className="text-xl md:text-2xl tex-black dark:text-white">
+            moelsayed949@gmail.com
+          </span>
         </div>
         <div className="flex flex-row gap-3 justify-center items-center text-white">
-          <LocalPhoneIcon className="text-white"/>{" "}
-          <span className="text-xl md:text-2xl">+0201002602130</span>
+          <LocalPhoneIcon className="text-black dark:text-white" />
+          <span className="text-xl md:text-2xl text-black dark:text-white">
+            +0201002602130
+          </span>
         </div>
-        <h1 className="text-center text-xl md:text-2xl text-[#ADB7BE]">
+        <h1 className="text-center text-xl md:text-2xl text-black dark:text-[#ADB7BE]">
           You may also find me on these platforms!
         </h1>
         <div className="socials flex flex-row gap-2">
           <Link href="github.com">
             <GitHubIcon
+              className="text-black dark:text-white"
               sx={{
                 fontSize: "45px",
-                color: "white",
               }}
             />
           </Link>
@@ -57,9 +61,9 @@ const Footer = () => {
           </Link>
           <Link href="linkedin.com">
             <XIcon
+              className="text-black dark:text-white"
               sx={{
                 fontSize: "45px",
-                color: "white",
               }}
             />
           </Link>

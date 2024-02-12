@@ -24,7 +24,7 @@ const navLinks = [
 const NavBar = () => {
   const [navBarOpen, setNavBarOpen] = useState(false);
   return (
-    <nav className="fixed top-0 right-0 left-0 z-40   bg-gray-500 dark:bg-black  bg-opacity-100 ">
+    <nav className="fixed top-0 right-0 left-0 z-40  bg-[#dedede] dark:bg-black  bg-opacity-100 ">
       <div className="flex flex-wrap  items-center justify-between p-2 mx-auto px-6">
         <Link
           href={"/"}
