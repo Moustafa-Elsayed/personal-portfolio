@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2 dark:text-white text-black">
         <li>JavaScript</li>
         <li>ReactJs</li>
         <li>NextJs</li>
@@ -20,7 +20,7 @@ const TAB_DATA = [
     title: "Tools",
     id: "tools",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2 dark:text-white text-black">
         <li>Tailwind</li>
         <li>Bootstrap</li>
         <li>Materuil ui</li>
@@ -32,7 +32,7 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2 dark:text-white text-black">
         <li>AWS Cloud Practitioner</li>
         <li>Google Professional Cloud Developer</li>
       </ul>
@@ -49,7 +49,7 @@ const AboutMe = () => {
     });
   };
   return (
-    <section className="text-white pb-24 sm:pt-36" id="about">
+    <section className="text-black dark:text-white pb-24 sm:pt-36" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4  xl:gap-16 sm:py-16 xl:px-16 ">
         <Image
           src="/images/about-image.png"
@@ -59,8 +59,8 @@ const AboutMe = () => {
           className="rounded-md"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-xl text-[#ADB7BE] ">
+          <h2 className="text-4xl font-bold text-black dark:text-white mb-4">About Me</h2>
+          <p className="text-base lg:text-xl text-black dark:text-[#ADB7BE] ">
             I am a <span className="text-blue-500">Frontend web</span> and{" "}
             <span className="text-blue-500">Mobile App</span> developer with a
             passion for creating interactive and responsive web applications. I
