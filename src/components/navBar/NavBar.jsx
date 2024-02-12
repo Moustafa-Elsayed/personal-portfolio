@@ -4,10 +4,7 @@ import Link from "next/link";
 import NavLinks from "./NavLinks";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
-import LogoDevIcon from "@mui/icons-material/LogoDev";
 import ThemeToggle from "../ThemeToggle";
-3;
-import DataObjectIcon from "@mui/icons-material/DataObject";
 import Image from "next/image";
 
 const navLinks = [
@@ -27,8 +24,8 @@ const navLinks = [
 const NavBar = () => {
   const [navBarOpen, setNavBarOpen] = useState(false);
   return (
-    <nav className="fixed top-0 right-0 left-0 z-40 bg-white dark:bg-black  bg-opacity-100 ">
-      <div className="flex flex-wrap  items-center justify-between p-5 mx-auto px-6">
+    <nav className="fixed top-0 right-0 left-0 z-40   bg-gray-500 dark:bg-black  bg-opacity-100 ">
+      <div className="flex flex-wrap  items-center justify-between p-2 mx-auto px-6">
         <Link
           href={"/"}
           // className="bg-slate-500 dark:bg-white rounded-full h-16 w-16 flex items-center justify-center  "

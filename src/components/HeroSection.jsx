@@ -20,8 +20,8 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start pt-10 "
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-zinc-700">
+          <h1 className="dark:text-white text-balck mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+            <span className="text-transparent bg-clip-text  bg-gradient-to-r from-slate-600 to-stone-600 dark:from-gray-200 dark:to-zinc-700">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
@@ -40,25 +40,26 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="dark:text-[#ADB7BE] text-black text-base sm:text-lg mb-6 lg:text-xl">
             I’m Frontend and Mobile App Developer Working With
             ReactJS,NextJs,React Native and constantly learning to expand my
             knowledge and skills
           </p>
           <div className="flex flex-col gap-3 items-center md:items-start">
             <div className="flex flex-row gap-3  items-center">
-              <LocationOnIcon className="text-white"/>
-              <div className="text-xl md:text-3xl text-white">Damnhour , Egypt</div>
+              <LocationOnIcon className="dark:text-white text-black"/>
+              <div className="text-xl md:text-3xl text-black dark:text-white">Damnhour , Egypt</div>
             </div>
             <div className="flex flex-row gap-3  items-center">
               <RadioButtonCheckedIcon className="text-green-600" />
-              <div className="text-xl md:text-3xl text-white">
+              <div className="text-xl md:text-3xl text-black dark:text-white">
                 Available for new projects
               </div>
             </div>
             <div className="socials flex flex-row gap-2">
               <Link href="github.com">
                 <GitHubIcon
+                className="text-black dark:text-white"
                   sx={{
                     fontSize: "45px",
                     color: "white",
