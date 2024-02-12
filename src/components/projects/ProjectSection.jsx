@@ -28,7 +28,7 @@ const projectsData = [
     id: 2,
     title: "Kasper E-commerce Website",
     description:
-      "React/Mui/React Router Dom/Framer motion /Aos animation/Formik/Yup validation/Redux/i18n/multilanguage",
+      "Mui/React Router Dom/Framer motion /Aos animation/Formik/Yup validation/Redux/i18n",
     image: "/images/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Moustafa-Elsayed/kasper",
@@ -38,7 +38,7 @@ const projectsData = [
     id: 3,
     title: "NFT-marketPlace Application",
     description:
-      "NFT-marketPlace APP (React Native Expo) A non-fungible token (NFT) is a unique cryptographic asset used to create and authenticate ownership of digital assets. NFTs are used with cartoons, music, film and video clips, JPEGs, postcards, sports trading cards, and ",
+      "NFT-marketPlace APP (React Native Expo)  ",
       image: "" ||"/images/no.jpg"  ,
       tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Moustafa-Elsayed/NFT-marketPlace",
@@ -85,7 +85,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" className="sm:pt-28 ">
+    <section id="projects" className="sm:pt-28  pt-24">
       <h2 className="text-center text-4xl font-bold text-black dark:text-white mt-4 mb-8 md:mb-12">
        Projects
       </h2>
