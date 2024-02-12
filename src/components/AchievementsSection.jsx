@@ -1,14 +1,6 @@
 "use client";
 import React from "react";
-import dynamic from "next/dynamic";
 import Image from "next/image";
-
-const AnimatedNumbers = dynamic(
-  () => {
-    return import("react-animated-numbers");
-  },
-  { ssr: false }
-);
 
 const skills = [
   {
@@ -17,7 +9,7 @@ const skills = [
   },
   {
     src: "https://svgshare.com/i/130J.svg",
-    title:"React"
+    title: "React",
   },
   {
     src: "https://svgshare.com/i/12vW.svg",
@@ -43,7 +35,6 @@ const skills = [
   {
     src: "https://svgshare.com/i/130S.svg",
     title: "GitHub",
-    
   },
   {
     src: "https://svgshare.com/i/12zg.svg",
@@ -53,48 +44,21 @@ const skills = [
     src: "https://svgshare.com/i/12zC.svg",
     title: "Bootstrap",
   },
-
 ];
 
 const AchievementsSection = () => {
   return (
-    <section >
-
+    <section>
       <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className="text-center pb-6 ">
-          <span className=" text-black dark:text-white p-3 rounded-lg border border-gray-500 font-bold">Skills</span>
+          <span className=" text-black dark:text-white p-3 rounded-lg border border-gray-500 font-bold">
+            Skills
+          </span>
         </div>
         <div className="text-center pb-6 text-black dark:text-[#ADB7BE]">
           The skills, tools and technologies I am really good at:
         </div>
         <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col flex-wrap sm:flex-row items-center justify-between gap-4">
-          {/* {achievementsList.map((achievement, index) => {
-            return (
-              <div
-                key={index}
-                className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0"
-              >
-                <h2 className="text-white text-4xl font-bold flex flex-row">
-                  {achievement.prefix}
-                  <AnimatedNumbers
-                    includeComma
-                    animateToNumber={parseInt(achievement.value)}
-                    locale="en-US"
-                    className="text-white text-4xl font-bold"
-                    configs={(_, index) => {
-                      return {
-                        mass: 1,
-                        friction: 100,
-                        tensions: 140 * (index + 1),
-                      };
-                    }}
-                  />
-                  {achievement.postfix}
-                </h2>
-                <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
-              </div>
-            );
-          })} */}
           {skills.map((item) => {
             return (
               <div
@@ -102,7 +66,9 @@ const AchievementsSection = () => {
                 className="flex flex-col gap-2 justify-evenly items-center md:self-end "
               >
                 <Image alt={item.title} src={item.src} width={70} height={50} />
-                <div className="text-blaack dark:text-gray-200">{item.title}</div>
+                <div className="text-blaack dark:text-gray-200">
+                  {item.title}
+                </div>
               </div>
             );
           })}

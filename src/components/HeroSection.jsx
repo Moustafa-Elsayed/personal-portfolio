@@ -62,7 +62,6 @@ const HeroSection = () => {
                 className="text-black dark:text-white"
                   sx={{
                     fontSize: "45px",
-                    color: "white",
                   }}
                 />
               </Link>

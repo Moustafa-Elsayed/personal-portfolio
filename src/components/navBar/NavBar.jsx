@@ -26,18 +26,8 @@ const NavBar = () => {
   return (
     <nav className="fixed top-0 right-0 left-0 z-40  bg-[#dedede] dark:bg-black  bg-opacity-100 ">
       <div className="flex flex-wrap  items-center justify-between p-2 mx-auto px-6">
-        <Link
-          href={"/"}
-          // className="bg-slate-500 dark:bg-white rounded-full h-16 w-16 flex items-center justify-center  "
-        >
-          {/* <DataObjectIcon
-            sx={{
-              fontSize: "55px",
-              color: "black",
-            }}
-          /> */}
+        <Link href={"/"}>
           <Image
-            // src={"https://svgshare.com/i/12wC.svg"}
             src={"https://svgshare.com/i/12ua.svg"}
             alt="logo"
             className="md:w-20 w-9 text-black drak:text-white"
