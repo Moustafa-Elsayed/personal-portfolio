@@ -49,7 +49,10 @@ const AboutMe = () => {
     });
   };
   return (
-    <section className="text-black dark:text-white pb-24 pt-7 sm:pt-36" id="about">
+    <section
+      className="text-black dark:text-white pb-24 pt-7 sm:pt-36"
+      id="about"
+    >
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4  xl:gap-16 sm:py-16 xl:px-16 ">
         <Image
           src="/images/about-image.png"
@@ -59,7 +62,9 @@ const AboutMe = () => {
           className="rounded-md"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-black dark:text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-black dark:text-white mb-4">
+            About Me
+          </h2>
           <p className="text-base lg:text-xl text-black dark:text-[#ADB7BE] ">
             I am a <span className="text-blue-500">Frontend web</span> and{" "}
             <span className="text-blue-500">Mobile App</span> developer with a
@@ -83,7 +88,6 @@ const AboutMe = () => {
             >
               Tools
             </TabButton>
-         
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}

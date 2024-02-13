@@ -48,11 +48,11 @@ const HeroSection = () => {
           <div className="flex flex-col gap-3 items-center md:items-start">
             <div className="flex flex-row gap-3  items-center">
               <LocationOnIcon className="dark:text-white text-black"/>
-              <div className="text-xl md:text-3xl text-black dark:text-white">Damnhour , Egypt</div>
+              <div className="text-xs md:text-3xl text-black dark:text-white">Damnhour , Egypt</div>
             </div>
             <div className="flex flex-row gap-3  items-center">
               <RadioButtonCheckedIcon className="text-green-600" />
-              <div className="text-xl md:text-3xl text-black dark:text-white">
+              <div className="text-xs md:text-3xl text-black dark:text-white">
                 Available for new projects
               </div>
             </div>
