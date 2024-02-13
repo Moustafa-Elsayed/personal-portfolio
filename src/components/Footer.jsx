@@ -13,15 +13,21 @@ const Footer = () => {
       <div className="flex flex-col justify-center items-center gap-7 p-10 ">
         <div className="flex flex-row gap-3 justify-center items-center">
           <EmailIcon className="text-black dark:text-white" />
-          <span className="text-xl md:text-2xl tex-black dark:text-white">
+          <a
+            href="mailto:moelsayed949@gmail.com"
+            class="text-xl md:text-2xl text-black dark:text-white"
+          >
             moelsayed949@gmail.com
-          </span>
+          </a>
         </div>
         <div className="flex flex-row gap-3 justify-center items-center text-white">
           <LocalPhoneIcon className="text-black dark:text-white" />
-          <span className="text-xl md:text-2xl text-black dark:text-white">
-            +0201002602130
-          </span>
+          <a
+            href="tel:+0201559949947"
+            class="text-xl md:text-2xl text-black dark:text-white"
+          >
+            +0201559949947
+          </a>
         </div>
         <h1 className="text-center text-xl md:text-2xl text-black dark:text-[#ADB7BE]">
           You may also find me on these platforms!

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const skills = [
   {
@@ -72,6 +73,8 @@ const AchievementsSection = () => {
               </div>
             );
           })}
+  
+
         </div>
       </div>
     </section>
