@@ -9,7 +9,7 @@ const projectsData = [
     id: 4,
     title: "Movies Application",
     description: "movies streaming App by React Native cli and TMDB APi ",
-    image: "" ||"/images/no.jpg"  ,
+    image: "" || "/images/no.jpg",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Moustafa-Elsayed/MoviesTime",
     previewUrl: "https://github.com/Moustafa-Elsayed/MoviesTime",
@@ -37,24 +37,13 @@ const projectsData = [
   {
     id: 3,
     title: "NFT-marketPlace Application",
-    description:
-      "NFT-marketPlace APP (React Native Expo)  ",
-      image: "" ||"/images/no.jpg"  ,
-      tag: ["All", "Mobile"],
+    description: "NFT-marketPlace APP (React Native Expo)  ",
+    image: "" || "/images/no.jpg",
+    tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Moustafa-Elsayed/NFT-marketPlace",
     previewUrl: "https://github.com/Moustafa-Elsayed/NFT-marketPlace",
   },
 
-  {
-    id: 5,
-    title: "MarketEase Website",
-    description:
-      "e-commerce project:react js/ redux toolkit/mui/rtk/framer motion/aos animation",
-      image: "" ||"/images/no.jpg"  ,
-      tag: ["All", "Web"],
-    gitUrl: "https://github.com/Moustafa-Elsayed/MarketEase",
-    previewUrl: "/",
-  },
   {
     id: 6,
     title: "AdminDashboard Website",
@@ -63,6 +52,16 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Moustafa-Elsayed/AdminDashboard",
     previewUrl: "https://admin-dashboard-eight-indol.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "MarketEase Website",
+    description:
+      "e-commerce project:react js/ redux toolkit/mui/rtk/framer motion/aos animation",
+    image: "" || "/images/no.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Moustafa-Elsayed/MarketEase",
+    previewUrl: "/",
   },
 ];
 
@@ -87,7 +86,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="sm:pt-28  pt-24">
       <h2 className="text-center text-4xl font-bold text-black dark:text-white mt-4 mb-8 md:mb-12">
-       Projects
+        Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
