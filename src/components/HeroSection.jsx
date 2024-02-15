@@ -47,8 +47,10 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col gap-3 items-center md:items-start">
             <div className="flex flex-row gap-3  items-center">
-              <LocationOnIcon className="dark:text-white text-black"/>
-              <div className="text-xs md:text-3xl text-black dark:text-white">Damnhour , Egypt</div>
+              <LocationOnIcon className="dark:text-white text-black" />
+              <div className="text-xs md:text-3xl text-black dark:text-white">
+                Damnhour , Egypt
+              </div>
             </div>
             <div className="flex flex-row gap-3  items-center">
               <RadioButtonCheckedIcon className="text-green-600" />
@@ -57,19 +59,19 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="socials flex flex-row gap-2">
-              <Link href="github.com">
+              <Link href="https://github.com/Moustafa-Elsayed">
                 <GitHubIcon
-                className="text-black dark:text-white"
+                  className="text-black dark:text-white"
                   sx={{
                     fontSize: "45px",
                   }}
                 />
               </Link>
-              <Link href="linkedin.com">
+              <Link href="https://www.linkedin.com/in/mostafa-elsayed-9bb2a42b3/">
                 <LinkedInIcon
                   sx={{
                     fontSize: "45px",
-                    color: "blue",
+                    color: "#0a66c2",
                   }}
                 />
               </Link>

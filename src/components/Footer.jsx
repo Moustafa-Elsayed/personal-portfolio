@@ -33,7 +33,7 @@ const Footer = () => {
           You may also find me on these platforms!
         </h1>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/Moustafa-Elsayed">
             <GitHubIcon
               className="text-black dark:text-white"
               sx={{
@@ -41,7 +41,7 @@ const Footer = () => {
               }}
             />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="/">
             <FacebookIcon
               sx={{
                 fontSize: "45px",
@@ -49,7 +49,7 @@ const Footer = () => {
               }}
             />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="/">
             <InstagramIcon
               sx={{
                 fontSize: "45px",
@@ -57,7 +57,7 @@ const Footer = () => {
               }}
             />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/mostafa-elsayed-9bb2a42b3/">
             <LinkedInIcon
               sx={{
                 fontSize: "45px",
@@ -65,7 +65,7 @@ const Footer = () => {
               }}
             />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="/">
             <XIcon
               className="text-black dark:text-white"
               sx={{
