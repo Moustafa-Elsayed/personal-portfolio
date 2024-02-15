@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="flex flex-row gap-3 justify-center items-center text-white">
           <LocalPhoneIcon className="text-black dark:text-white" />
           <a
-            href="tel:+0201559949947"
+            href="tel:01559949947"
             class="text-xl md:text-2xl text-black dark:text-white"
           >
             +0201559949947
