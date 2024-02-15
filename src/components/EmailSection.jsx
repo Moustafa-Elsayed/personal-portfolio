@@ -48,16 +48,14 @@ const EmailSection = () => {
       // Body of the request is the JSON data we created above.
       body: JSONdata,
     };
-
     const response = await fetch(endpoint, options);
     const resData = await response.json();
 
     if (response.status === 200) {
       console.log("Message sent.");
       setEmailSubmitted(true);
-      setOpen(true); // Open the dialog after successful submission
+      setOpen(true); 
 
-      // Reset the form fields
       e.target.reset();
     }
   };

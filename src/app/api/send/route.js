@@ -12,6 +12,7 @@ export async function POST(req, res) {
       subject: subject,
       react: (
         <>
+          <h1>{email}</h1>
           <h1>{subject}</h1>
           <p>{message}</p>
           <p>Thank you for contacting us!</p>
