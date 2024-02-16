@@ -43,8 +43,7 @@ const HeroSection = () => {
           </h1>
           <p className="dark:text-[#ADB7BE] text-black text-base sm:text-lg mb-6 lg:text-xl">
             I’m Frontend and Mobile App Developer Working With
-            ReactJS,NextJs,React Native and constantly learning to expand my
-            knowledge and skills
+            ReactJS,NextJs,React Native , I Have +2 Years Experience and Iam Always Developing My self
           </p>
           <div className="flex flex-col gap-3 items-center md:items-start">
             <div className="flex flex-row gap-3  items-center">
