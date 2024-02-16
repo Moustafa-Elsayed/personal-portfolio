@@ -77,13 +77,13 @@ const HeroSection = () => {
                 />
               </Link>
               <Link href="https://api.whatsapp.com/send?phone=201559949947">
-            <WhatsAppIcon
-              className="text-green-800"
-              style={{
-                fontSize: "45px",
-              }}
-            />
-          </Link>
+                <WhatsAppIcon
+                  className="text-green-800"
+                  style={{
+                    fontSize: "45px",
+                  }}
+                />
+              </Link>
             </div>
             {/* <Link
               href="/contact"
