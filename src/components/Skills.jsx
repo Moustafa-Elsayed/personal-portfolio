@@ -63,7 +63,7 @@ const data = [
 ];
 const Skills = () => {
   return (
-    <section className="text-black">
+    <section className="text-black" id="about">
       <div className="text-center pb-6 ">
         <span className=" text-black dark:text-white p-3 rounded-lg border border-gray-500 font-bold pb-2">
           What I Can Offer

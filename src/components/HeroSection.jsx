@@ -13,7 +13,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const HeroSection = () => {
   return (
-    <section className="sm:pt-32 pb-24 relative">
+    <section className="sm:pt-32 pb-24 relative" id="Home">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
