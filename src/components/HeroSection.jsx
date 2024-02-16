@@ -6,10 +6,11 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import WorkIcon from "@mui/icons-material/Work";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import RadioButtonCheckedIcon from "@mui/icons-material/RadioButtonChecked";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+
 const HeroSection = () => {
   return (
     <section className="sm:pt-32 pb-24 relative">
@@ -75,6 +76,14 @@ const HeroSection = () => {
                   }}
                 />
               </Link>
+              <Link href="https://api.whatsapp.com/send?phone=201559949947">
+            <WhatsAppIcon
+              className="text-green-800"
+              style={{
+                fontSize: "45px",
+              }}
+            />
+          </Link>
             </div>
             {/* <Link
               href="/contact"
