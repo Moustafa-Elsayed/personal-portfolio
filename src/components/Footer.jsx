@@ -7,6 +7,7 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 const Footer = () => {
   return (
     <section className="dark:bg-black bg-white border-t dark:border-white border-black">
@@ -69,6 +70,14 @@ const Footer = () => {
             <XIcon
               className="text-black dark:text-white"
               sx={{
+                fontSize: "45px",
+              }}
+            />
+          </Link>
+          <Link href="https://api.whatsapp.com/send?phone=201559949947">
+            <WhatsAppIcon
+              className="text-green-800"
+              style={{
                 fontSize: "45px",
               }}
             />
