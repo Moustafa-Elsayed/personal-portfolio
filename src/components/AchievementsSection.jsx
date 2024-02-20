@@ -4,43 +4,62 @@ import Image from "next/image";
 
 const skills = [
   {
+    id: "1",
     src: "https://svgshare.com/i/12vy.svg",
     title: "javascript",
   },
   {
+    id: "2",
+
     src: "https://svgshare.com/i/130J.svg",
     title: "React",
   },
   {
+    id: "3",
+
     src: "https://svgshare.com/i/12vW.svg",
     title: "Next Js",
   },
   {
+    id: "4",
+
     src: "https://svgshare.com/i/12sz.svg",
     title: "Typescript",
   },
 
   {
+    id: "5",
+
     src: "https://svgshare.com/i/12vz.svg",
     title: "Sass",
   },
   {
+    id: "6",
+
     src: "https://svgshare.com/i/12ve.svg",
     title: "Tailwind",
   },
   {
+    id: "7",
+
     src: "https://svgshare.com/i/12vp.svg",
     title: "Git ",
   },
   {
+    id: "8",
+
     src: "https://svgshare.com/i/130S.svg",
     title: "GitHub",
   },
   {
+    id: "9",
+
     src: "https://svgshare.com/i/12zg.svg",
     title: "Material ui",
   },
   {
+    id: "10",
+
     src: "https://svgshare.com/i/12zC.svg",
     title: "Bootstrap",
   },
@@ -66,14 +85,12 @@ const AchievementsSection = () => {
                 className="flex flex-col gap-2 justify-evenly items-center md:self-end "
               >
                 <Image alt={item.title} src={item.src} width={70} height={50} />
-                <div className="text-blaack dark:text-gray-200">
+                <div className="text-black dark:text-gray-200">
                   {item.title}
                 </div>
               </div>
             );
           })}
-  
-
         </div>
       </div>
     </section>
