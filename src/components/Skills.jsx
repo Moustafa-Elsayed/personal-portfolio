@@ -75,9 +75,9 @@ const Skills = () => {
           return (
             <div
               key={item.id}
-              className="bg-[#dedede]  p-8 w-full h-full rounded-lg"
+              className="bg-[#dedede] dark:bg-white p-8 w-full h-full rounded-lg"
             >
-              <div className="bg-white rounded-md w-fit p-2">{item.icon}</div>
+              <div className="bg-white dark:bg-[#dedede] rounded-md w-fit p-2">{item.icon}</div>
               <div className="text-black font-bold pt-3 pb-3 text-base md:text-xl">
                 {item.title}
               </div>
