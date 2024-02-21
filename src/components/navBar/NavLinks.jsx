@@ -5,15 +5,18 @@ import ThemeToggle from "../ThemeToggle";
 const NavLinks = ({ navLinks, activeSection }) => {
   return (
     <ul className="flex flex-row gap-5 items-center ">
-      <li><ThemeToggle /></li>
+      <li>
+        <ThemeToggle />
+      </li>
       {navLinks.map((item, index) => {
         return (
           <li key={index}>
             <Link
               href={item.path}
               className={`block py-2 pl-3 pr-4 dark:text-white text-black sm:text-xl rounded md:p-0 hover:text-blue-400 font-semibold ${
-                item.path === `#${activeSection}` ? "text-blue-400 dark:text-blue-500 " : ""
-              }`}
+                item.path === `#${activeSection}`
+                  ? "text-blue-400 dark:text-blue-600"
+                  : ""}`}
             >
               {item.title}
             </Link>
