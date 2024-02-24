@@ -13,7 +13,7 @@ const NavLinks = ({ navLinks, activeSection }) => {
           <li key={index}>
             <Link
               href={item.path}
-              className={`block py-2 pl-3 pr-4 dark:text-white text-black sm:text-xl rounded md:p-0 hover:text-blue-400 dark:hover:text-blue-400 font-semibold ${
+              className={`block py-2 pl-3 pr-4 dark:text-white text-black sm:text-xl rounded md:p-0 hover:text-blue-400 dark:hover:text-yellow-400 font-semibold ${
                 item.path === `#${activeSection}` ? "text-blue-400 dark:text-yellow-400 " : ""
               }`}
             >
