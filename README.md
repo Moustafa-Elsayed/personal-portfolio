@@ -1,5 +1,5 @@
 <h1 align="center">Portfolio WebSite</h1>
-<P>This is a Portfolio Responsive Webpage built with NextJs,Tailwind,Matrial ui, Resend Email JS</P>
+<P>This is a Portfolio Responsive Webpage built with NextJs,Tailwind,Materila ui, Resend Email JS</P>
 <p align="center"><img src="https://i.ibb.co/XLpYPk2/portflio.png" alt="project"></p>
 
 <h2>🚀 Demo</h2>
@@ -64,7 +64,8 @@ Technologies used in the project:
   <a href="https://www.linkedin.com/in/mostafa-elsayed-9bb2a42b3/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" /></a>
  <a href="https://wa.me/201002602130"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="52" height="40" alt="whatsapp logo" /></a>
   <a href="https://t.me/01002602130"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo" /></a>
-  <a href="https://www.facebook.com/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo" /></a>
+  <a href="mailto:moelsayed949@gmail.com"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="Gmail logo" /></a>
+
 </div>
 
 <h2> Contributing:</h2>
@@ -75,5 +76,4 @@ Technologies used in the project:
 
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.   
 If you found the app helpful consider supporting me
-
 https://github.com/Moustafa-Elsayed
