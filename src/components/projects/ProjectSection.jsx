@@ -63,6 +63,15 @@ const projectsData = [
     gitUrl: "https://github.com/Moustafa-Elsayed/MarketEase",
     previewUrl: "/",
   },
+  {
+    id: 6,
+    title: "Weather App",
+    description: "Weather App(react native cli) with weather Api",
+    image: "/images/weather.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/Moustafa-Elsayed/Weather",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
