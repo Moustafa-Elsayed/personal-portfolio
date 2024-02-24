@@ -50,7 +50,7 @@ const AboutMe = () => {
   };
   return (
     <section
-      className="text-black dark:text-white pb-24 pt-7 sm:pt-36"
+      className="text-black dark:text-white pb-52 pt-7 sm:pt-36"
       id="about"
     >
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4  xl:gap-16 sm:py-16 xl:px-16 ">
