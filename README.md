@@ -1,13 +1,6 @@
-<h1 align="center">README Gen</h1>
-
+<h1 align="center">Portfolio WebSite</h1>
+<P>This is a Portfolio Responsive Webpage built with NextJs,Tailwind,Matrial ui, Resend Email JS</P>
 <p align="center"><img src="https://i.ibb.co/XLpYPk2/portflio.png" alt="project"></p>
-
-<p>README Gen is a tool to build amazing README files for your open source project faster than ever before. More details here: <a href="https://saurabhnative.hashnode.dev/introducing-readme-gen-most-advanced-readme-generator-for-your-opensource-projects">Hashnode Article on README Gen</a></p>
-
-<p align="center"><img src="https://img.shields.io/github/license/saurabhnative/create-frontend-readme" alt="shields"><img src="https://img.shields.io/github/stars/saurabhnative/create-frontend-readme" alt="shields"><img src="https://img.shields.io/github/forks/saurabhnative/create-frontend-readme" alt="shields"><a href="https://twitter.com/intent/tweet?text=Checkout%20readme-gen.vercel.app%20by%20@saurabhnative.%20Most%20advanced%20README%20generator%20for%20your%20Github projects🔥">
-<a href="https://twitter.com/intent/tweet?text=Checkout%20readme-gen.vercel.app%20by%20@saurabhnative.%20Most%20advanced%20README%20generator%20for%20your%20Github projects🔥"><img src="https://img.shields.io/twitter/url?style=social&amp;url=https%3A%2F%2Fgithub.com%2Fsaurabhnative%2Fcreate-frontend-readme"></a>
-</p>
-
 
 <h2>🚀 Demo</h2>
 
@@ -16,15 +9,13 @@ https://moustafa-elsayed-portoflio.vercel.app/
 
 <img src="https://i.ibb.co/Jt6CvR4/portflio1.png" alt="shields" width="800" height="400&quot;/">
 
-  
-
 
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone the repository</p>
 
 ```
-[git clone repo_url](https://github.com/Moustafa-Elsayed/personal-portfolio.git)
+git clone https://github.com/Moustafa-Elsayed/personal-portfolio.git
 ```
 
 <p>2. Install npm modules</p>
@@ -38,8 +29,6 @@ yarn install
 ```
 yarn dev
 ```
-**Note:** For running authentication using auth0 service create a `.env.local` file and add changes as per official article:-
-<a href="https://auth0.com/docs/quickstart/webapp/nextjs/01-login#configure-the-sdk">Auth0 Next.js Quick Start</a>
 
 <p>4. Create production build using below command</p>
 
@@ -59,17 +48,24 @@ yarn start
 
 Technologies used in the project:
 
-*  [Next.js](https://nextjs.org/) 
+*  [Next.js](https://nextjs.org/)
+*  [React Js](https://react.dev/learn) 
 *  [TailwindCSS](https://tailwindcss.com/)  
-*  [Auth0 for user authentication](https://auth0.com/docs/quickstart/webapp/nextjs) 
-*  [react-collapsible](https://www.npmjs.com/package/react-collapsible)  - For collapsible menu items
-*  [react-icons](https://www.npmjs.com/package/react-icons)  - For icons used in different sections
-*  [react-markdown](https://www.npmjs.com/package/react-markdown)  - For markdown preview
-*  [react-tagsinput](https://www.npmjs.com/package/react-tagsinput)  - For taking multiple input items at once
-*  [react-toastify](https://www.npmjs.com/package/react-toastify)  - For toast notification
-*  [turndown](https://www.npmjs.com/package/turndown)  - For HTML to markdown conversion
+*  [Materila ui](https://mui.com/material-ui/getting-started/) 
+*  [Resend Email ](https://resend.com/emails/69382737-8835-4c5a-a6ed-12f5b160910c)
+
+
+
+
+
 
 <h2>🛡️ Authors:</h2>
+<div align="left">
+  <a href="https://www.linkedin.com/in/mostafa-elsayed-9bb2a42b3/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" /></a>
+ <a href="https://wa.me/201002602130"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="52" height="40" alt="whatsapp logo" /></a>
+  <a href="https://t.me/01002602130"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo" /></a>
+  <a href="https://www.facebook.com/"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo" /></a>
+</div>
 
 <h2> Contributing:</h2>
 * Contributions, issues and feature requests are welcome!
