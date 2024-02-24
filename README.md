@@ -75,4 +75,5 @@ Technologies used in the project:
 
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.   
 If you found the app helpful consider supporting me
+
 https://github.com/Moustafa-Elsayed
