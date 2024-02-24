@@ -1,6 +1,6 @@
 <h1 align="center">README Gen</h1>
 
-<p align="center"><img src="[https://res.cloudinary.com/dk22rcdch/image/upload/v1630127769/Blogimages/Screenshot_2021-08-28_at_10.46.02_AM_yapvfb.png](https://i.ibb.co/XLpYPk2/portflio.png)" alt="project"></p>
+<p align="center"><img src="https://i.ibb.co/XLpYPk2/portflio.png" alt="project"></p>
 
 <p>README Gen is a tool to build amazing README files for your open source project faster than ever before. More details here: <a href="https://saurabhnative.hashnode.dev/introducing-readme-gen-most-advanced-readme-generator-for-your-opensource-projects">Hashnode Article on README Gen</a></p>
 
