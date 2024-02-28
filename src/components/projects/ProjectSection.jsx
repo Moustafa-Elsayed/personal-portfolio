@@ -75,7 +75,7 @@ const projectsData = [
   {
     id: 7,
     title: "Eflyer Website",
-    description: "ecommerce project:React js/Redux toolkit/Mui/React React Dom/",
+    description: "Eflyer E-commerce  Website: React js/Redux toolkit/Mui/React React Dom/",
     image: "/images/eflyer.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Moustafa-Elsayed/eflyer",
