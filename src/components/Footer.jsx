@@ -58,7 +58,7 @@ const Footer = () => {
               }}
             />
           </Link>
-          <Link href="https://www.linkedin.com/in/mostafa-elsayed-9bb2a42b3/">
+          <Link href="https://www.linkedin.com/in/moustafa-hashem-0718872b7/
             <LinkedInIcon
               sx={{
                 fontSize: "45px",
