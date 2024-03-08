@@ -8,7 +8,7 @@ import NavBar from "@/components/navBar/NavBar";
 import ProjectSection from "@/components/projects/ProjectSection";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col dark:bg-black bg-white">
+    <main className="flex min-h-screen flex-col dark:bg-black bg-white ">
       <NavBar />
       <div className="container mx-auto py-4 px-10 mt-24">
         <HeroSection />
