@@ -7,6 +7,17 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 4,
+    title: "Amazon clone",
+    description:
+      "Amazon clone Built With: Next JS ,Typescript , Tailwind ,Redux Toolkit ,stripe and Redux persists",
+    image: "/images/amazon.png" || "",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Moustafa-Elsayed/amazon-clone",
+    previewUrl:
+      "https://amazon-clone-git-master-moustafa-elsayeds-projects.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Movies Application",
     description: "movies streaming App by React Native cli and TMDB APi ",
     image: "/images/moviestime.png" || "",
@@ -75,7 +86,8 @@ const projectsData = [
   {
     id: 7,
     title: "Eflyer Website",
-    description: "Eflyer E-commerce  Website: React js/Redux toolkit/Mui/React React Dom/",
+    description:
+      "Eflyer E-commerce  Website: React js/Redux toolkit/Mui/React React Dom/",
     image: "/images/eflyer.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Moustafa-Elsayed/eflyer",
