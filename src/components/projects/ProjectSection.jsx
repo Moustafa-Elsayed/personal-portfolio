@@ -15,6 +15,7 @@ const projectsData = [
     gitUrl: "https://github.com/Moustafa-Elsayed/amazon-clone",
     previewUrl:
       "https://amazon-clone-git-master-moustafa-elsayeds-projects.vercel.app/",
+      
   },
   {
     id: 4,
