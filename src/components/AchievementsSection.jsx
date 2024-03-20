@@ -82,7 +82,7 @@ const AchievementsSection = () => {
             return (
               <div
                 key={item.id}
-                className="flex flex-col gap-2 justify-evenly items-center md:self-end "
+                className="flex flex-col gap-2 justify-center items-center md:self-end "
               >
                 <Image alt={item.title} src={item.src} width={70} height={50} />
                 <div className="text-black dark:text-gray-200">
