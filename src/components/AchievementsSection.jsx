@@ -77,7 +77,7 @@ const AchievementsSection = () => {
         <div className="text-center pb-6 text-black dark:text-[#ADB7BE]">
           The skills, tools and technologies I am really good at:
         </div>
-        <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-co flex-wrap sm:flex-row items-center justify-between gap-4">
+        <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-co flex-wrap sm:flex-row items-center justify-center gap-4">
           {skills.map((item) => {
             return (
               <div
