@@ -98,9 +98,9 @@ const projectsData = [
     id: 7,
     title: "Facebook-app clone",
     description:
-      "Eflyer E-commerce  Website: React js/Redux toolkit/Mui/React React Dom/",
-    image: "/images/eflyer.png",
-    tag: ["All", "Web"],
+      "Facebook clone Built With: React Native cli ,vector icons,stripe and react-navigation ",
+    image: "/images/fc.png",
+    tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Moustafa-Elsayed/FaceBookClone",
     previewUrl: "https://github.com/Moustafa-Elsayed/FaceBookClone",
   },
