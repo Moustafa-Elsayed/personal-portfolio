@@ -94,6 +94,16 @@ const projectsData = [
     gitUrl: "https://github.com/Moustafa-Elsayed/eflyer",
     previewUrl: "https://eflyer-mocha.vercel.app/",
   },
+  {
+    id: 7,
+    title: "Facebook-app clone",
+    description:
+      "Eflyer E-commerce  Website: React js/Redux toolkit/Mui/React React Dom/",
+    image: "/images/eflyer.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Moustafa-Elsayed/FaceBookClone",
+    previewUrl: "https://github.com/Moustafa-Elsayed/FaceBookClone",
+  },
 ];
 
 const ProjectsSection = () => {
