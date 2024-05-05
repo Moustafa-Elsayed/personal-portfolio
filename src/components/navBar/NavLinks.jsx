@@ -26,6 +26,7 @@ const NavLinks = ({ navLinks, activeSection }) => {
         <Link
           href="https://docs.google.com/document/d/1lgs-pM4PBlHQPKYhpIIq8xt6fy_IK50GVvrgBfznGTo/edit"
           className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gray-600 dark:bg-yellow-400 text-white ml-3 "
+          
         >
           <span className="block bg-[#121212] hover:bg-slate-800  rounded-full px-5 py-2 font-semibold">
             Download CV
