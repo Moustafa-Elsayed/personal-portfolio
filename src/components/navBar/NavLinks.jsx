@@ -24,7 +24,7 @@ const NavLinks = ({ navLinks, activeSection }) => {
       })}
       <li className="border-l border-gray-500  dark:border-yellow-400">
         <Link
-          href="https://docs.google.com/document/d/1lgs-pM4PBlHQPKYhpIIq8xt6fy_IK50GVvrgBfznGTo/edit"
+          href="https://drive.google.com/file/d/17Qofmv-9ngfblAXPfAjP05X-lKpFbuXD/view?usp=sharing"
           className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gray-600 dark:bg-yellow-400 text-white ml-3 "
           
         >

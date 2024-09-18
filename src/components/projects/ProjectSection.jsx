@@ -14,8 +14,26 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Moustafa-Elsayed/amazon-clone",
     previewUrl:
-      "https://amazon-clone-b43kipbyl-moustafa-elsayeds-projects.vercel.app/" ,
-      
+      "https://amazon-clone-b43kipbyl-moustafa-elsayeds-projects.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "AdminDashboard Website",
+    description: "React/Material Ui/ React Router Dom/ ",
+    image: "/images/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Moustafa-Elsayed/AdminDashboard",
+    previewUrl: "https://admin-dashboard-eight-indol.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "online-course platform",
+    description:
+      "Mern Stack Project Build With:Next JS /Redux Toolkit/Material Ui /Express JS /Mango DB ",
+    image: "/images/image8.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Moustafa-Elsayed/onlinecourse",
+    previewUrl: "https://onlinecourse-ho3r.vercel.app/",
   },
   {
     id: 4,
@@ -57,7 +75,7 @@ const projectsData = [
   },
 
   {
-    id: 6,
+    id: 8,
     title: "AdminDashboard Website",
     description: "React/Material Ui/ React Router Dom/ ",
     image: "/images/6.png",
