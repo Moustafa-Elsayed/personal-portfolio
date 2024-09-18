@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
@@ -123,15 +123,12 @@ const projectsData = [
     previewUrl: "https://github.com/Moustafa-Elsayed/FaceBookClone",
   },
 ];
-
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
-  const handleTagChange = (newTag) => {
-    setTag(newTag);
-  };
+  const handleTagChange = (newTag) => setTag(newTag);
 
   const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)
@@ -143,35 +140,23 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" className="sm:pt-28  pt-24">
+    <section id="projects" className="sm:pt-28 pt-24">
       <h2 className="text-center text-4xl font-bold text-black dark:text-white mt-4 mb-8 md:mb-12">
         Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
-        />
+      <div className="flex justify-center items-center gap-3 mb-6">
+        <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"} />
+        <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === "Web"} />
+        <ProjectTag onClick={handleTagChange} name="Mobile" isSelected={tag === "Mobile"} />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {filteredProjects.map((project, index) => (
           <motion.li
-            key={index}
+            key={project.id}
             variants={cardVariants}
             initial="initial"
             animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
+            transition={{ duration: 0.3, delay: index * 0.2 }}
           >
             <ProjectCard
               key={project.id}
