@@ -43,7 +43,8 @@ const HeroSection = () => {
           </h1>
           <p className="dark:text-[#ADB7BE] text-black text-base sm:text-lg mb-6 lg:text-xl">
             I’m Frontend and Mobile App Developer Working With
-            ReactJS,NextJs,React Native , I Have +2 Years Experience and Iam Always Developing My self
+            ReactJS,NextJs,React Native , I Have +2 Years Experience and Iam
+            Always Developing My self
           </p>
           <div className="flex flex-col gap-3 items-center md:items-start">
             <div className="flex flex-row gap-3  items-center">
@@ -103,7 +104,7 @@ const HeroSection = () => {
         <div className="col-span-4 place-self-center mt-4 lg:mt-0 pt-8 md:pt-0">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/WhatsApp Image 2023-12-22 at 20.34.41_d58b157b.jpg"
+              src="/images/person.jpg"
               width={300}
               height={300}
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
