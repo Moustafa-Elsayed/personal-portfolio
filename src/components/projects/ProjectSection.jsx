@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
@@ -36,7 +36,7 @@ const projectsData = [
     previewUrl: "https://onlinecourse-ho3r.vercel.app/",
   },
   {
-    id: 4,
+    id: 9,
     title: "Movies Application",
     description: "movies streaming App by React Native cli and TMDB APi ",
     image: "/images/moviestime.png" || "",
@@ -73,16 +73,6 @@ const projectsData = [
     gitUrl: "https://github.com/Moustafa-Elsayed/NFT-marketPlace",
     previewUrl: "https://github.com/Moustafa-Elsayed/NFT-marketPlace",
   },
-
-  {
-    id: 8,
-    title: "AdminDashboard Website",
-    description: "React/Material Ui/ React Router Dom/ ",
-    image: "/images/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Moustafa-Elsayed/AdminDashboard",
-    previewUrl: "https://admin-dashboard-eight-indol.vercel.app/",
-  },
   {
     id: 5,
     title: "MarketEase Website",
@@ -94,7 +84,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
+    id: 10,
     title: "Weather App",
     description: "Weather App(react native cli) with weather Api",
     image: "/images/weather.png",
@@ -113,7 +103,7 @@ const projectsData = [
     previewUrl: "https://eflyer-mocha.vercel.app/",
   },
   {
-    id: 7,
+    id: 11,
     title: "Facebook-app clone",
     description:
       "Facebook clone Built With: React Native cli ,vector icons,stripe and react-navigation ",
@@ -123,6 +113,7 @@ const projectsData = [
     previewUrl: "https://github.com/Moustafa-Elsayed/FaceBookClone",
   },
 ];
+
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
@@ -130,7 +121,12 @@ const ProjectsSection = () => {
 
   const handleTagChange = (newTag) => setTag(newTag);
 
-  const filteredProjects = projectsData.filter((project) =>
+  const uniqueProjectsData = projectsData.filter(
+    (project, index, self) =>
+      index === self.findIndex((p) => p.id === project.id)
+  );
+
+  const filteredProjects = uniqueProjectsData.filter((project) =>
     project.tag.includes(tag)
   );
 
@@ -145,11 +141,26 @@ const ProjectsSection = () => {
         Projects
       </h2>
       <div className="flex justify-center items-center gap-3 mb-6">
-        <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"} />
-        <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === "Web"} />
-        <ProjectTag onClick={handleTagChange} name="Mobile" isSelected={tag === "Mobile"} />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="All"
+          isSelected={tag === "All"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Web"
+          isSelected={tag === "Web"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Mobile"
+          isSelected={tag === "Mobile"}
+        />
       </div>
-      <ul ref={ref} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <ul
+        ref={ref}
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+      >
         {filteredProjects.map((project, index) => (
           <motion.li
             key={project.id}

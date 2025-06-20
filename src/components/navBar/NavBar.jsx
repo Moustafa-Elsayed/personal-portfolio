@@ -7,6 +7,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 import ThemeToggle from "../ThemeToggle";
 import Image from "next/image";
+import { CodeXml } from "lucide-react";
 
 const navLinks = [
   {
@@ -57,13 +58,7 @@ const NavBar = () => {
     <nav className="fixed top-0 right-0 left-0 z-40 bg-[#dedede] dark:bg-black bg-opacity-100 ">
       <div className="flex flex-wrap items-center justify-between p-2 mx-auto px-6">
         <Link href={"/"}>
-          <Image
-            src={"https://svgshare.com/i/12ua.svg"}
-            alt="logo"
-            className="md:w-20 w-9 text-black drak:text-white"
-            width={50}
-            height={20}
-          />
+          <CodeXml className="w-22 h-2w-22" />
         </Link>
 
         <div className="mobile-menu block md:hidden relative">

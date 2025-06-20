@@ -5,63 +5,75 @@ import Image from "next/image";
 const skills = [
   {
     id: "1",
-    src: "https://svgshare.com/i/12vy.svg",
+    src: "/images/js.webp",
     title: "javascript",
   },
   {
     id: "2",
 
-    src: "https://svgshare.com/i/130J.svg",
+    src: "/images/react.png",
     title: "React",
   },
   {
     id: "3",
 
-    src: "https://svgshare.com/i/12vW.svg",
+    src: "/images/next js.png",
     title: "Next Js",
   },
   {
     id: "4",
 
-    src: "https://svgshare.com/i/12sz.svg",
+    src: "/images/ts.png",
     title: "Typescript",
   },
 
   {
     id: "5",
 
-    src: "https://svgshare.com/i/12vz.svg",
+    src: "/images/sass.png",
     title: "Sass",
   },
   {
     id: "6",
 
-    src: "https://svgshare.com/i/12ve.svg",
+    src: "/images/tailwind.png",
     title: "Tailwind",
   },
   {
     id: "7",
 
-    src: "https://svgshare.com/i/12vp.svg",
+    src: "/images/git.png",
     title: "Git ",
   },
   {
     id: "8",
 
-    src: "https://svgshare.com/i/130S.svg",
+    src: "/images/gihub.png",
     title: "GitHub",
   },
   {
     id: "9",
 
-    src: "https://svgshare.com/i/12zg.svg",
+    src: "/images/mui.png",
     title: "Material ui",
   },
   {
     id: "10",
 
-    src: "https://svgshare.com/i/12zC.svg",
+    src: "/images/bootstrap.png",
     title: "Bootstrap",
+  },
+  {
+    id: "11",
+
+    src: "/images/shadcn.png",
+    title: "shadcn",
+  },
+  {
+    id: "12",
+
+    src: "/images/jest.png",
+    title: "jest unit testing",
   },
 ];
 

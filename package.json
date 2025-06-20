@@ -14,6 +14,7 @@
     "@heroicons/react": "^2.1.1",
     "@mui/icons-material": "^5.15.9",
     "framer-motion": "^11.0.3",
+    "lucide-react": "^0.519.0",
     "next": "14.1.0",
     "next-themes": "^0.2.1",
     "react": "^18",
